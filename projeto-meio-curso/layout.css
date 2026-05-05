@@ -1,0 +1,158 @@
+header 
+{
+  background-color: #ffd100;
+  color: #0047ab;
+  padding: 20px;
+  border-radius: 20px;
+  border: 5px solid #0047ab;
+  box-shadow: 0 8px 0 #00337a, 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-nav 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-nav ul
+{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.container-nav a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: #0047ab;
+  padding: 8px 12px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.container-nav a:hover 
+{
+  background-color: #0047ab;
+  color: white;
+}
+
+main 
+{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.botao a 
+{
+  background-color: #9aa0d8;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 1.1em;
+  box-shadow: 0 5px 0 #ffee07;
+  transition: all 0.2s ease;
+}
+
+footer 
+{
+  background-color: #ffd100;
+  color: #0047ab;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+
+.botao a:hover 
+{
+  transform: translateY(-2px);
+}
+
+.card-img {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-esponja
+{
+width: 350px;
+background-color: #ffd900;
+border: 5px solid #0059ff;
+border-radius: 8px;
+padding: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.card-esponja
+{
+    width:100% ;
+}
+
+.card-bob
+{
+    width: 350px;
+background-color: #ffd900;
+border: 5px solid #0059ff;
+border-radius: 8px;
+padding: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-bob
+{
+    width: 100%;
+}
+
+.card-gourmet
+{
+    width: 350px;
+background-color: #ffd900;
+border: 5px solid #0059ff;
+border-radius: 8px;
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-gourmet
+{
+    width: 100%;
+}
+
+
+.card-horario
+{
+ width: 350px;
+background-color: #ffd900;
+border: 5px solid #0059ff;
+border-radius: 8px;
+padding: 20px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-horario
+{
+    width: 100%;
+}
+
+.card-img
+{
+margin: auto;
+flex-wrap: nowrap;
+}
